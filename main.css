@@ -1,0 +1,126 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+header{
+    color: white;
+    padding: 15px;
+    background-color: blueviolet;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+header h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: none;
+    font-style: normal;
+    font-size: 40px;
+}
+header nav ul li{
+    display: inline;
+    margin-left: 14px;
+    font-size: 15px;
+    justify-content: space-around;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+header .container, section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+section .container{
+    align-items: flex-start;
+}
+section{
+    padding: 24px 0;
+}
+section p{
+    margin-top: 15px;
+    margin-bottom: 8px;
+    text-align: justify;
+}
+#sobrenos img{
+    width: 50%;
+    box-shadow: 8px 5px 15px rgb(54, 3, 102);
+}
+#sobrenos p{
+    margin-right: 60px;
+}
+#nosprocure .container{
+    display: block;
+}
+.metodos-contato{
+    display: flex;
+    justify-content: space-between;
+}
+form input, form textarea, form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    margin-top: 20px;
+}
+form textarea{
+    resize: none;
+    height: 180px;
+}
+form button{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+}
+form button:hover{
+    background-color: rgb(167, 107, 223);
+}
+input:focus, textarea:focus{
+    outline-color:blueviolet;
+}
+
+.midias-sociais li{
+    display: inline-flex;
+    margin-right: 8px;
+    margin-top: 8px;
+    align-items: center;
+}
+.midias-sociais li a{
+    text-decoration: none;
+}
+.midias-sociais img{
+    display: inline;
+    height: 24px;
+    
+}
+.metodos-contato h3{
+    margin-top: 30px;
+}
+section{
+    color: rgb(51, 3, 95);
+}
+footer{
+    background-color: blueviolet;
+    color: white;
+    padding: 30px;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 40px;
+}
